@@ -39,7 +39,7 @@
     "test": "./test"
   },
   "scripts": {
-    "build": "run-s lint build:js docs",
+    "build": "run-s lint build:js docs test:browser-headless coverage",
     "build:js": "rollup -c build/rollup.config.js",
     "clean": "rimraf .nyc_output .mocha-ts coverage dist types docs",
     "coverage": "nyc --check-coverage --exclude build --exclude '{src/ts/**/*.spec.ts,test/**/*.ts,.mocha-ts/**/*}' --reporter=text --reporter=lcov node ./build/bin/mocha-ts.js --require build/testing/mocha/mocha-init.js '{src/ts/**/*.spec.ts,test/**/*.ts}'",
@@ -100,5 +100,8 @@
     "typedoc": "^0.22.0",
     "typedoc-plugin-markdown": "^3.11.0",
     "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "bigint-crypto-utils": "^3.0.21"
   }
 }

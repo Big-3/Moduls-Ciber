@@ -1,3 +1,9 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![Node.js CI](https://github.com/Big-3/Moduls-Ciber/workflows/Node.js%20CI/badge.svg)](https://github.com/Big-3/Moduls-Ciber/actions?query=workflow%3A%22Node.js+CI%22)
+[![Coverage Status](https://coveralls.io/repos/github/Big-3/Moduls-Ciber/badge.svg?branch=master)](https://coveralls.io/github/Big-3/Moduls-Ciber?branch=master)
+
 # Skeleton for developing modules for browser and Node.js in Typescript
 
 > This entire section with all its subsections (Installation, Tooling, Scripts) should be removed from your `src/docs/index.md` after installing. The rest of sections may be useful for your package readme, and you may just modified them in `src/docs/index.md` to meet your needs.
@@ -75,33 +81,33 @@ The `README.md` file is automatically generated from the `src/docs/index.md` fil
 - `npm run test:node`. Runs all the unit tests (`src/**/*.spec.ts` and `test/**/*.ts`) in Node.js.
 - `npm run watch`. Likely to be the default script during development. Tests are automatically reexecuted whenever a test or source file changes.
 
-# @my-scope/my-package-name
+# @big3/ciber-modules
 
 Your package description
 
 ## Usage
 
-`@my-scope/my-package-name` can be imported to your project with `npm`:
+`@big3/ciber-modules` can be imported to your project with `npm`:
 
 ```console
-npm install @my-scope/my-package-name
+npm install @big3/ciber-modules
 ```
 
 Then either require (Node.js CJS):
 
 ```javascript
-const myPackageName = require('@my-scope/my-package-name')
+const ciberModules = require('@big3/ciber-modules')
 ```
 
 or import (JavaScript ES module):
 
 ```javascript
-import * as myPackageName from '@my-scope/my-package-name'
+import * as ciberModules from '@big3/ciber-modules'
 ```
 
 The appropriate version for browser or node is automatically exported.
 
-You can also download the IIFE bundle, the ESM bundle or the UMD bundle and manually add it to your project, or, if you have already installed `@my-scope/my-package-name` in your project, just get the bundles from `node_modules/@my-scope/my-package-name/dist/bundles/`.
+You can also download the [IIFE bundle](https://raw.githubusercontent.com/Big-3/Moduls-Ciber/master/dist/bundles/iife.js), the [ESM bundle](https://raw.githubusercontent.com/Big-3/Moduls-Ciber/master/dist/bundles/esm.min.js) or the [UMD bundle](https://raw.githubusercontent.com/Big-3/Moduls-Ciber/master/dist/bundles/umd.js) and manually add it to your project, or, if you have already installed `@big3/ciber-modules` in your project, just get the bundles from `node_modules/@big3/ciber-modules/dist/bundles/`.
 
 An example of usage could be:
 

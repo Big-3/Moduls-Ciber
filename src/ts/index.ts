@@ -6,4 +6,5 @@
  *
  * @packageDocumentation
  */
-export {RSAPublicKey, RSAPrivateKey, generateRSAKeys} from './RSA';
+export { RSAPublicKey, RSAPrivateKey, generateRSAKeys } from './RSA'
+export { PaillierPublicKey, PaillierPrivateKey, generatePaillierKeys } from './Paillier'
