@@ -6,6 +6,4 @@
  *
  * @packageDocumentation
  */
-
-export { helloWorld, Response } from './hello-world'
-export default function sayHello (): void { console.log('hello') }
+export {RSAPublicKey, RSAPrivateKey, generateRSAKeys} from './RSA';
