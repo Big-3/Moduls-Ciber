@@ -29,7 +29,7 @@
 
 #### Defined in
 
-Paillier.ts:51
+[Paillier.ts:51](https://github.com/Big-3/Moduls-Ciber/blob/cf333a7/src/ts/Paillier.ts#L51)
 
 ## Methods
 
@@ -49,7 +49,7 @@ Paillier.ts:51
 
 #### Defined in
 
-Paillier.ts:69
+[Paillier.ts:69](https://github.com/Big-3/Moduls-Ciber/blob/cf333a7/src/ts/Paillier.ts#L69)
 
 ___
 
@@ -63,7 +63,7 @@ ___
 
 #### Defined in
 
-Paillier.ts:57
+[Paillier.ts:57](https://github.com/Big-3/Moduls-Ciber/blob/cf333a7/src/ts/Paillier.ts#L57)
 
 ___
 
@@ -77,7 +77,7 @@ ___
 
 #### Defined in
 
-Paillier.ts:61
+[Paillier.ts:61](https://github.com/Big-3/Moduls-Ciber/blob/cf333a7/src/ts/Paillier.ts#L61)
 
 ___
 
@@ -91,4 +91,4 @@ ___
 
 #### Defined in
 
-Paillier.ts:65
+[Paillier.ts:65](https://github.com/Big-3/Moduls-Ciber/blob/cf333a7/src/ts/Paillier.ts#L65)

@@ -28,7 +28,7 @@
 
 #### Defined in
 
-[RSA.ts:31](https://github.com/Big-3/Moduls-Ciber/blob/90e9810/src/ts/RSA.ts#L31)
+[RSA.ts:31](https://github.com/Big-3/Moduls-Ciber/blob/cf333a7/src/ts/RSA.ts#L31)
 
 ## Methods
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-[RSA.ts:44](https://github.com/Big-3/Moduls-Ciber/blob/90e9810/src/ts/RSA.ts#L44)
+[RSA.ts:44](https://github.com/Big-3/Moduls-Ciber/blob/cf333a7/src/ts/RSA.ts#L44)
 
 ___
 
@@ -62,7 +62,7 @@ ___
 
 #### Defined in
 
-[RSA.ts:36](https://github.com/Big-3/Moduls-Ciber/blob/90e9810/src/ts/RSA.ts#L36)
+[RSA.ts:36](https://github.com/Big-3/Moduls-Ciber/blob/cf333a7/src/ts/RSA.ts#L36)
 
 ___
 
@@ -76,7 +76,7 @@ ___
 
 #### Defined in
 
-[RSA.ts:40](https://github.com/Big-3/Moduls-Ciber/blob/90e9810/src/ts/RSA.ts#L40)
+[RSA.ts:40](https://github.com/Big-3/Moduls-Ciber/blob/cf333a7/src/ts/RSA.ts#L40)
 
 ___
 
@@ -96,4 +96,4 @@ ___
 
 #### Defined in
 
-[RSA.ts:48](https://github.com/Big-3/Moduls-Ciber/blob/90e9810/src/ts/RSA.ts#L48)
+[RSA.ts:48](https://github.com/Big-3/Moduls-Ciber/blob/cf333a7/src/ts/RSA.ts#L48)

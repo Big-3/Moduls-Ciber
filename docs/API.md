@@ -13,13 +13,59 @@ This module runs perfectly in node.js and browsers
 - [PaillierPublicKey](classes/PaillierPublicKey.md)
 - [RSAPrivateKey](classes/RSAPrivateKey.md)
 - [RSAPublicKey](classes/RSAPublicKey.md)
+- [SharedKey](classes/SharedKey.md)
 
 ### Functions
 
+- [LagrangeInterpolation](API.md#lagrangeinterpolation)
+- [genSharedKeys](API.md#gensharedkeys)
 - [generatePaillierKeys](API.md#generatepaillierkeys)
 - [generateRSAKeys](API.md#generatersakeys)
 
 ## Functions
+
+### LagrangeInterpolation
+
+▸ **LagrangeInterpolation**(`receivedSharedKeys`): `bigint`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `receivedSharedKeys` | [`SharedKey`](classes/SharedKey.md)[] |
+
+#### Returns
+
+`bigint`
+
+#### Defined in
+
+Secret-sharing.ts:90
+
+___
+
+### genSharedKeys
+
+▸ **genSharedKeys**(`s`, `t`, `n`, `nbits`): `Promise`<[`SharedKey`](classes/SharedKey.md)[]\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `s` | `bigint` |
+| `t` | `number` |
+| `n` | `number` |
+| `nbits` | `number` |
+
+#### Returns
+
+`Promise`<[`SharedKey`](classes/SharedKey.md)[]\>
+
+#### Defined in
+
+Secret-sharing.ts:55
+
+___
 
 ### generatePaillierKeys
 
@@ -37,7 +83,7 @@ This module runs perfectly in node.js and browsers
 
 #### Defined in
 
-Paillier.ts:99
+[Paillier.ts:99](https://github.com/Big-3/Moduls-Ciber/blob/cf333a7/src/ts/Paillier.ts#L99)
 
 ___
 
@@ -57,4 +103,4 @@ ___
 
 #### Defined in
 
-[RSA.ts:76](https://github.com/Big-3/Moduls-Ciber/blob/90e9810/src/ts/RSA.ts#L76)
+[RSA.ts:76](https://github.com/Big-3/Moduls-Ciber/blob/cf333a7/src/ts/RSA.ts#L76)
